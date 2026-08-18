@@ -4,3 +4,4 @@
 
 * Arrays
 * Dimensions
+* Indexing

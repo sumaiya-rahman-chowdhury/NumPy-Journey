@@ -31,4 +31,4 @@ a = np.array([
 
 #define number of dimensions arr gonna hv
 arr = np.array([1, 2, 3, 4], ndmin=5)
-print(arr.ndim)
+#print(arr.ndim)
