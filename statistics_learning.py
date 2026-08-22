@@ -46,12 +46,25 @@ plt.show()"""
 
 """data = np.array([10, 30, 50, 70, 90])
 
-plt.scatter(data, np.zeros(len(data)))
+""plt.scatter(data, np.zeros(len(data)))
 plt.axvline(np.mean(data), linestyle="--")
 
 plt.show()"""
 
-data = np.array([10, 30, 50, 70, 90])
+"""data = np.array([10, 30, 50, 70, 90])
 
 plt.hist(data)
+plt.show()"""
+
+data = np.array([48, 49, 50, 51, 52])
+
+mean = np.mean(data)
+print(mean)
+plt.scatter(data, np.zeros(len(data)), s=10)
+
+plt.axvline(mean, linestyle="--")
+
+plt.xlabel("Values")
+plt.title("How far are the values from the mean")
+
 plt.show()
